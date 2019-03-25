@@ -1,5 +1,7 @@
 This document describes a simple toy chat protocol "STCP", version 1.
 
+TODO: each frame that assumes a response should contain a sort of identifier so that both sides could correlate frame responses to frame requests, this is integral part of multiplexing
+
 Connection
 ==========
 
